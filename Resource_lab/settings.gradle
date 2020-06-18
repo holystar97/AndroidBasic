@@ -1,0 +1,2 @@
+rootProject.name='Resource_lab'
+include ':app'

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progStatus"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="120"
+        android:progress="60"
+        android:secondaryProgress="90"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/bnDecrease1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:text="-"/>
+        <Button
+            android:id="@+id/bnIncrease1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:text="+"/>
+        <Button
+            android:id="@+id/bnDecrease2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:text="-"/>
+        <Button
+            android:id="@+id/bnIncrease2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:text="+"/>
+    </LinearLayout>
+</LinearLayout>

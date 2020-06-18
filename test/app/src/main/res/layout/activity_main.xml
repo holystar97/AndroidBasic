@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="부트 완료 (ACTION_BOOK_COMPLETED) ,
+                    \n 사용자 존재 (ACTION_USER_PRESENT),
+                    \n 헤드셋 플러그 (ACTION_HEADSET_PLUG)
+                    \n 이벤트를 감지합니다. "
+       android:textSize="16dp"
+       android:textStyle="bold|italic"
+       />
+
+
+</LinearLayout>

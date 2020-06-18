@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="width">
+    <item>사각형</item>
+    <item>원</item>
+    <item>세모</item>
+</string-array>
+
+</resources>
